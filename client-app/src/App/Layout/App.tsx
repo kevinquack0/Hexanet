@@ -9,24 +9,34 @@ import agent from "../api/Agent";
 import LoadingComponents from "./LoadingComponents";
 import { useStore } from "../stores/store";
 import { observer } from "mobx-react-lite";
+import HomePage from "../../Features/home/HomePage";
+import { Route, useLocation } from "react-router-dom";
+import ActivityForm from "../../Features/activities/form/ActivityForm";
+import ActivityDetails from "../../Features/activities/details/ActivityDetails";
 
 function App() {
-  const { activityStore } = useStore();
-
-  useEffect(() => {
-    activityStore.loadActivities();
-  }, [activityStore]);
-
-  if (activityStore.loadingInitial)
-    return <LoadingComponents content="Loading app" />;
-
+  const location = useLocation();
   return (
-    <div>
-      <NavBar />
-      <Container style={{ marginTop: " 7em" }}>
-        <ActivityDashboard />
-      </Container>
-    </div>
+    <>
+      <Route exact path="/" component={HomePage} />
+      <Route
+        path={"/(.+)"}
+        render={() => (
+          <>
+            <NavBar />
+            <Container style={{ marginTop: " 7em" }}>
+              <Route exact path="/activities" component={ActivityDashboard} />
+              <Route path="/activities/:id" component={ActivityDetails} />
+              <Route
+                key={location.key}
+                path={["/createActivity", "/manage/:id"]}
+                component={ActivityForm}
+              />
+            </Container>
+          </>
+        )}
+      />
+    </>
   );
 }
 
