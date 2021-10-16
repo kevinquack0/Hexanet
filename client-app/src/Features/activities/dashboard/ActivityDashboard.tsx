@@ -6,6 +6,7 @@ import { Activity } from "../../../App/Models/activity";
 import { useStore } from "../../../App/stores/store";
 import ActivityDetails from "../details/ActivityDetails";
 import ActivityForm from "../form/ActivityForm";
+import ActivityFilters from "./ActivityFilters";
 import Activitylist from "./ActivityList";
 
 export default observer(function ActivityDashboard() {
@@ -24,7 +25,9 @@ export default observer(function ActivityDashboard() {
       <Grid.Column width="10">
         <Activitylist />
       </Grid.Column>
-      <Grid.Column width="6"></Grid.Column>
+      <Grid.Column width="6">
+        <ActivityFilters />
+      </Grid.Column>
     </Grid>
   );
 });
