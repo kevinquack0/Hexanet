@@ -6,6 +6,7 @@ using Application.Activities;
 using Application.Core;
 using Application.Interfaces;
 using AutoMapper;
+using Infrastructure.Photos;
 using Infrastructure.Security;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -43,7 +44,9 @@ namespace API.Extensions
 
             services.AddAutoMapper(typeof(MappingProfiles).Assembly);
             services.AddScoped<IUserAccessor, UserAccessor>(); // get logged user username from anywhere
+            services.AddScoped<IPhotoAccessor, PhotoAccessor>();
 
+            services.Configure<CloudinarySettings>(config.GetSection("Cloudinary"));
             return services;
         }
 
