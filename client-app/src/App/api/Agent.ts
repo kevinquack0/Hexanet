@@ -1,5 +1,5 @@
 import { UserFormValues } from "./../Models/User";
-import { Activity } from "./../Models/activity";
+import { Activity, ActivityFormValues } from "./../Models/activity";
 
 import axios, { AxiosError, AxiosResponse } from "axios";
 import { toast } from "react-toastify";
@@ -76,10 +76,12 @@ const Activities = {
   //things you can do to activities to get/post information to the back-end
   list: () => requests.get<Activity[]>("/activities"),
   details: (id: string) => requests.get<Activity>(`/activities/${id}`),
-  create: (activity: Activity) => requests.post<void>("/activities", activity),
-  update: (activity: Activity) =>
+  create: (activity: ActivityFormValues) =>
+    requests.post<void>("/activities", activity),
+  update: (activity: ActivityFormValues) =>
     requests.put<void>(`/activities/${activity.id}`, activity),
   delete: (id: string) => requests.del<void>(`/activities/${id}`),
+  attend: (id: string) => requests.post<void>(`/activities/${id}/attend`, {}),
 };
 
 const Account = {
