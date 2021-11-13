@@ -8,13 +8,18 @@ interface Props {
 }
 
 export default observer(function ProfileCard({ profile }: Props) {
+  function shorten(str: string | undefined) {
+    if (str) {
+      return str.length > 40 ? str.substring(0, 37) + "..." : str;
+    }
+  }
   return (
     <div>
       <Card as={Link} to={`/profiles/${profile.username}`}>
         <Image src={profile.image || "/assets/user.png"} />
         <Card.Content>
           <Card.Header>{profile.displayName}</Card.Header>
-          <Card.Description>Bio Here</Card.Description>
+          <Card.Description>{shorten(profile.bio)}</Card.Description>
         </Card.Content>
 
         <Card.Content extra>
