@@ -9,7 +9,7 @@ namespace Application.Comments
     {
         public int Id { get; set; }
 
-        public DateTime CreateAt { get; set; }
+        public DateTime CreatedAt { get; set; }
 
         public string Body { get; set; }
 
