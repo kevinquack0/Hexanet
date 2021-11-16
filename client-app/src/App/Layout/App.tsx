@@ -34,7 +34,7 @@ function App() {
   }, [commonStore, useStore]);
 
   if (!commonStore.appLoaded) {
-    return <LoadingComponents content="LLoading app..." />;
+    return <LoadingComponents content="Loading app..." />;
   }
   return (
     <>
