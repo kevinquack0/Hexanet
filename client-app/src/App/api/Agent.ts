@@ -8,6 +8,7 @@ import { toast } from "react-toastify";
 import { history } from "../..";
 import { store } from "../stores/store";
 import { User } from "../Models/User";
+import { UserActivity } from "../Models/UserActivity";
 const sleep = (delay: number) => {
   return new Promise((resolve) => {
     setTimeout(resolve, delay);
@@ -122,6 +123,9 @@ const Profiles = {
     requests.post(`/follow/${username}`, {}),
   listFollowings: (username: string, predicate: string) =>
     requests.get<Profile[]>(`/follow/${username}?predicate=${predicate}`),
+  listActivities: (username: string, predicate: string) =>
+    requests.get<UserActivity[]>(`/profiles/${username}/activities?
+predicate=${predicate}`),
 };
 
 const agent = {
