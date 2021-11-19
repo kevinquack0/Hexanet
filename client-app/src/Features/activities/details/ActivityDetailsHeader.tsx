@@ -93,7 +93,7 @@ export default observer(function ActivityDetailedHeader({ activity }: Props) {
               disabled={activity.isCancelled}
               as={Link}
               to={`/manage/${activity.id}`}
-              color="orange"
+              color="black"
               floated="right"
             >
               Manage Event
