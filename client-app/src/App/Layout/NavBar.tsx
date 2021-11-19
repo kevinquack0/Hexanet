@@ -24,7 +24,7 @@ export default observer(function NavBar() {
       <Container>
         <Menu.Item as={NavLink} to="/" exact header>
           <Icon name="connectdevelop" size="large" />
-          Hexanet
+          Hexanext
         </Menu.Item>
         <Menu.Item name="Activities" as={NavLink} to="/activities" />
 
