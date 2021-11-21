@@ -1,0 +1,15 @@
+D:\PersonalStorage\Netnew\Persistence\bin\Debug\net5.0\Persistence.deps.json
+D:\PersonalStorage\Netnew\Persistence\bin\Debug\net5.0\Persistence.dll
+D:\PersonalStorage\Netnew\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+D:\PersonalStorage\Netnew\Persistence\bin\Debug\net5.0\Persistence.pdb
+D:\PersonalStorage\Netnew\Persistence\bin\Debug\net5.0\Domain.dll
+D:\PersonalStorage\Netnew\Persistence\bin\Debug\net5.0\Domain.pdb
+D:\PersonalStorage\Netnew\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+D:\PersonalStorage\Netnew\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\PersonalStorage\Netnew\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+D:\PersonalStorage\Netnew\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+D:\PersonalStorage\Netnew\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+D:\PersonalStorage\Netnew\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+D:\PersonalStorage\Netnew\Persistence\obj\Debug\net5.0\Persistence.dll
+D:\PersonalStorage\Netnew\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+D:\PersonalStorage\Netnew\Persistence\obj\Debug\net5.0\Persistence.pdb

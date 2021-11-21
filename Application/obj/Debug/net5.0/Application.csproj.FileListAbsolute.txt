@@ -1,0 +1,17 @@
+D:\PersonalStorage\Netnew\Application\bin\Debug\net5.0\Application.deps.json
+D:\PersonalStorage\Netnew\Application\bin\Debug\net5.0\Application.dll
+D:\PersonalStorage\Netnew\Application\bin\Debug\net5.0\ref\Application.dll
+D:\PersonalStorage\Netnew\Application\bin\Debug\net5.0\Application.pdb
+D:\PersonalStorage\Netnew\Application\bin\Debug\net5.0\Domain.dll
+D:\PersonalStorage\Netnew\Application\bin\Debug\net5.0\Persistence.dll
+D:\PersonalStorage\Netnew\Application\bin\Debug\net5.0\Persistence.pdb
+D:\PersonalStorage\Netnew\Application\bin\Debug\net5.0\Domain.pdb
+D:\PersonalStorage\Netnew\Application\obj\Debug\net5.0\Application.csproj.AssemblyReference.cache
+D:\PersonalStorage\Netnew\Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\PersonalStorage\Netnew\Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
+D:\PersonalStorage\Netnew\Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
+D:\PersonalStorage\Netnew\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInputs.cache
+D:\PersonalStorage\Netnew\Application\obj\Debug\net5.0\Application.csproj.CopyComplete
+D:\PersonalStorage\Netnew\Application\obj\Debug\net5.0\Application.dll
+D:\PersonalStorage\Netnew\Application\obj\Debug\net5.0\ref\Application.dll
+D:\PersonalStorage\Netnew\Application\obj\Debug\net5.0\Application.pdb
