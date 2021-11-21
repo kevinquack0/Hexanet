@@ -746,11 +746,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PersonalStorage\\Netnew\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\PersonalStorage\\CloneNetnew-main\\Netnew-main\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\PersonalStorage\\Netnew\\Domain\\Domain.csproj",
+      "projectPath": "D:\\PersonalStorage\\CloneNetnew-main\\Netnew-main\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-      "outputPath": "D:\\PersonalStorage\\Netnew\\Domain\\obj\\",
+      "outputPath": "D:\\PersonalStorage\\CloneNetnew-main\\Netnew-main\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config"

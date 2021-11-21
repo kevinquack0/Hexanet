@@ -2883,11 +2883,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PersonalStorage\\Netnew\\API\\API.csproj",
+      "projectUniqueName": "D:\\PersonalStorage\\CloneNetnew-main\\Netnew-main\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\PersonalStorage\\Netnew\\API\\API.csproj",
+      "projectPath": "D:\\PersonalStorage\\CloneNetnew-main\\Netnew-main\\API\\API.csproj",
       "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-      "outputPath": "D:\\PersonalStorage\\Netnew\\API\\obj\\",
+      "outputPath": "D:\\PersonalStorage\\CloneNetnew-main\\Netnew-main\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2902,11 +2902,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\PersonalStorage\\Netnew\\Application\\Application.csproj": {
-              "projectPath": "D:\\PersonalStorage\\Netnew\\Application\\Application.csproj"
+            "D:\\PersonalStorage\\CloneNetnew-main\\Netnew-main\\Application\\Application.csproj": {
+              "projectPath": "D:\\PersonalStorage\\CloneNetnew-main\\Netnew-main\\Application\\Application.csproj"
             },
-            "D:\\PersonalStorage\\Netnew\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\PersonalStorage\\Netnew\\Infrastructure\\Infrastructure.csproj"
+            "D:\\PersonalStorage\\CloneNetnew-main\\Netnew-main\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\PersonalStorage\\CloneNetnew-main\\Netnew-main\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

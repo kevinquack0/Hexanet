@@ -1703,11 +1703,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PersonalStorage\\Netnew\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "D:\\PersonalStorage\\CloneNetnew-main\\Netnew-main\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "D:\\PersonalStorage\\Netnew\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "D:\\PersonalStorage\\CloneNetnew-main\\Netnew-main\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-      "outputPath": "D:\\PersonalStorage\\Netnew\\Infrastructure\\obj\\",
+      "outputPath": "D:\\PersonalStorage\\CloneNetnew-main\\Netnew-main\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1722,8 +1722,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\PersonalStorage\\Netnew\\Application\\Application.csproj": {
-              "projectPath": "D:\\PersonalStorage\\Netnew\\Application\\Application.csproj"
+            "D:\\PersonalStorage\\CloneNetnew-main\\Netnew-main\\Application\\Application.csproj": {
+              "projectPath": "D:\\PersonalStorage\\CloneNetnew-main\\Netnew-main\\Application\\Application.csproj"
             }
           }
         }

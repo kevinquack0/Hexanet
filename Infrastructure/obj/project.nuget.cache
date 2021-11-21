@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9QP6F+x6gEAgavb47FNs4aExGHWdH2ps92649Qfp+qXKz/A7DS1Fk/mXjhQSzCsOqABc3mHIiBz+dYPMIkG5fA==",
+  "dgSpecHash": "lfAA0MWxHLAu3JVTEJJkVSijMxPZLZEO6wZschKn9DLHecQk5XgqGduLwcUg+G2kpkhydNtEMRYPRtc7E/U8IA==",
   "success": true,
-  "projectFilePath": "D:\\PersonalStorage\\Netnew\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\PersonalStorage\\CloneNetnew-main\\Netnew-main\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kevin\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\kevin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
