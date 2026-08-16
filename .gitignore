@@ -1,0 +1,24 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/
+
+# .NET build output and local data
+**/bin/
+**/obj/
+*.db
+*.db-shm
+*.db-wal
+API/appsettings.Development.json
+
+# Node and Create React App output
+**/node_modules/
+client-app/build/
+API/wwwroot/
+client-app/.env*
+!client-app/.env.example
+
+# Logs and coverage
+*.log
+coverage/
